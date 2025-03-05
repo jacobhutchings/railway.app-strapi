@@ -5,10 +5,8 @@ WORKDIR /usr/src/app
 COPY . .
 COPY ./src ./src
 
-RUN yarn install --ignore-engines
-
-RUN yarn build --ignore-engines
+RUN yarn install
 
 EXPOSE 1337
 
-CMD ["yarn", "start  --ignore-engines"]
+CMD ["yarn", "start"]
