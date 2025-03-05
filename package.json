@@ -24,13 +24,13 @@
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22.x.x",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "typescript": "^5"
   },
   "engines": {
-    "node": "^20.0.0"
+    "node": "^22.x.x"
   },
   "strapi": {
     "uuid": "fbaf61cd-dcdc-45ae-bf43-8781f5861c55"
