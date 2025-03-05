@@ -14,6 +14,9 @@ WORKDIR /opt/app
 COPY . .
 RUN chown -R node:node /opt/app
 USER node
+# Set environment variables for Strapi URL configuration
+ENV HOST=0.0.0.0
+ENV PORT=1337
 RUN ["yarn", "build"]
 EXPOSE 1337
 CMD ["yarn", "develop"]
