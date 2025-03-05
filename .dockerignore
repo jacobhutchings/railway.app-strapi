@@ -1,12 +1,6 @@
 node_modules
-npm-debug.log
-Dockerfile
-.dockerignore
-README.md
-tsconfig.json
-src/uploads
-src/.cache
-src/tmp
-config/local
-config/env
-public/uploads
+.git
+.env
+*.log
+.cache
+build
